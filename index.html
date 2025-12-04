@@ -15,7 +15,6 @@ header {
     background: #343a40;
     color: white;
     padding: 40px;
-    text-align: center;
 }
 section {
     padding: 20px 40px;
@@ -44,19 +43,28 @@ h1, h2 {
 </head>
 <body>
 
-<header>
-<header style="display: flex; justify-content: space-between; align-items: center; padding: 40px; text-align: left;">
-    <div>
+<!-- FIXED HEADER -->
+<header style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 40px;
+">
+    <div style="flex: 1;">
         <h1>Dulshan Malshika</h1>
         <p>Graduate Student | Statistics & Mathematics | Clemson University</p>
     </div>
 
     <img src="1758399302105.jpeg" alt="Dulshan Photo" 
-         style="width:180px; border-radius:8px; margin-left:20px;">
+         style="
+            width:150px; 
+            height:150px; 
+            border-radius:50%; 
+            object-fit:cover; 
+            margin-left:20px;
+         ">
 </header>
-
-
-<header>
 
 <section class="container">
 
